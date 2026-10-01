@@ -1,0 +1,131 @@
+{
+  "users": [
+    {
+      "id": 1788184701632,
+      "name": "thaslim",
+      "email": "thaslim@gmail.com",
+      "passwordHash": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+      "role": "USER"
+    },
+    {
+      "id": 1788274653068,
+      "name": "thaslim",
+      "email": "thaslimhp@gmail.com",
+      "passwordHash": "15e2b0d3c33891ebb0f1ef609ec419420c20e320ce94c65fbc8c3312448eb225",
+      "role": "USER"
+    },
+    {
+      "id": 1788621060122,
+      "name": "anisa",
+      "email": "anisa@gmail.com",
+      "passwordHash": "5994471abb01112afcc18159f6cc74b4f511b99806da59b3caf5a9c173cacfc5",
+      "role": "USER"
+    }
+  ],
+  "predictions": [
+    {
+      "id": 1788621071575,
+      "createdAt": "2026-09-05T15:11:11.575Z",
+      "userId": 1788621060122,
+      "input": {
+        "satellites": 10,
+        "snr": 36,
+        "hdop": 1.2,
+        "vdop": 1.6,
+        "multipath": 0.25,
+        "ionosphere": 0.16,
+        "troposphere": 0.08
+      },
+      "prediction": {
+        "before": 4.87,
+        "after": 1.96,
+        "improvement": 59.8,
+        "confidence": 88.4,
+        "level": "MEDIUM",
+        "components": {
+          "geometry": 1.96,
+          "signalNoise": 0.22,
+          "environment": 2.2
+        }
+      }
+    },
+    {
+      "id": 1788417584483,
+      "createdAt": "2026-09-03T06:39:44.483Z",
+      "userId": 1788274653068,
+      "input": {
+        "satellites": 7,
+        "snr": 36,
+        "hdop": 1.2,
+        "vdop": 1.6,
+        "multipath": 0.18,
+        "ionosphere": 0.12,
+        "troposphere": 0.08
+      },
+      "prediction": {
+        "before": 5.1,
+        "after": 2.02,
+        "improvement": 60.4,
+        "confidence": 84.5,
+        "level": "MEDIUM",
+        "components": {
+          "geometry": 1.96,
+          "signalNoise": 0.22,
+          "environment": 1.67
+        }
+      }
+    },
+    {
+      "id": 1788274664855,
+      "createdAt": "2026-09-01T14:57:44.855Z",
+      "userId": 1788274653068,
+      "input": {
+        "satellites": 10,
+        "snr": 36,
+        "hdop": 1.8,
+        "vdop": 1.6,
+        "multipath": 0.18,
+        "ionosphere": 0.19,
+        "troposphere": 0.08
+      },
+      "prediction": {
+        "before": 5.3,
+        "after": 2.11,
+        "improvement": 60.2,
+        "confidence": 87.4,
+        "level": "MEDIUM",
+        "components": {
+          "geometry": 2.5,
+          "signalNoise": 0.22,
+          "environment": 1.95
+        }
+      }
+    },
+    {
+      "id": 1788184757428,
+      "createdAt": "2026-08-31T13:59:17.428Z",
+      "userId": 1788184701632,
+      "input": {
+        "satellites": 7,
+        "snr": 35,
+        "hdop": 1.1,
+        "vdop": 1.5,
+        "multipath": 0.18,
+        "ionosphere": 0.12,
+        "troposphere": 0.05
+      },
+      "prediction": {
+        "before": 4.88,
+        "after": 1.95,
+        "improvement": 60,
+        "confidence": 84,
+        "level": "MEDIUM",
+        "components": {
+          "geometry": 1.82,
+          "signalNoise": 0.28,
+          "environment": 1.58
+        }
+      }
+    }
+  ]
+}
